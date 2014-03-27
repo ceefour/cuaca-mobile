@@ -29,6 +29,7 @@
             $("#afui").removeClass("ios");
     });
 </script>
+<script src="js/app.js"></script>
 <link href="css/icons.css" rel="stylesheet" type="text/css">
 <link href="css/af.ui.css" rel="stylesheet" type="text/css">
 </head>
@@ -36,9 +37,27 @@
 <div id="afui" class="ios">
     <div id="header"></div>
     <div id="content" style="">
-        <div class="panel" title="Main" data-nav="nav_0" id="main" selected="selected"
-        style="">
-            <a class="button" href="#" style="" data-appbuilder-object="button">Hello World</a>
+        <div class="panel" title="Prakiraan Cuaca" data-nav="nav_0" id="main" selected="selected"
+        style="" data-appbuilder-object="page">
+
+            <div class="input_element form_element" style="width:100%;overflow:hidden" data-appbuilder-object="input">
+                <label for="cityFld">Kota</label>
+                <input type="text" style="float:left;" id="cityFld" placeholder="Kota" value="Bandung">
+            </div>
+            <div class="input_element form_element" style="width:100%;overflow:hidden" data-appbuilder-object="input">
+                <label for="countryCodeFld">Negara</label>
+                <input type="text" style="float:left;" id="countryCodeFld" placeholder="Negara"
+                value="ID">
+            </div><a class="button" href="#" style="" data-appbuilder-object="button"
+            data-transition="slide" id="weatherBtn">Cek Cuaca</a>
+            <div class="input_element form_element" style="width:100%;overflow:hidden" data-appbuilder-object="input">
+                <label for="weatherFld">Cuaca</label>
+                <input type="text" style="float:left;" id="weatherFld" placeholder="Cuaca" readonly="">
+            </div>
+            <div class="input_element form_element" style="width:100%;overflow:hidden" data-appbuilder-object="input">
+                <label for="tempFld">Suhu</label>
+                <input type="text" style="float:left;" id="tempFld" placeholder="Suhu" readonly="">
+            </div>
         </div>
     </div>
     <div id="navbar">
