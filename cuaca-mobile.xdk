@@ -1,0 +1,33 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.0",
+    "creationData": {
+      "type": "App Starter",
+      "src": "appStarter",
+      "projectGuid": "12c72886-37ce-4396-8316-6ad53b626c13",
+      "lastModifiedDate": 1395931850240,
+      "creationDate": 1395931850198
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [
+      {
+        "name": "Cordova",
+        "version": "2.9.0",
+        "data": {
+          "default": true
+        }
+      },
+      {
+        "name": "intelXDK",
+        "version": "4.0.0",
+        "data": {
+          "default": true
+        }
+      }
+    ],
+    "services": []
+  }
+}
